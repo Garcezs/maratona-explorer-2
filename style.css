@@ -26,7 +26,7 @@ a {
  body.dark-red{
    --bg-color: #2b0000;
    --text-color: #ffffff;
-   --primary-color: #eb1d1deb;
+   --primary-color: #eb1d1db3;
    --primary-color-dark: #ff2121fa;
  }
 
@@ -41,6 +41,11 @@ body {
 /* boxes */
 
 .container {
+  padding: 16px;
+  background-color:#2f1608;
+  border-bottom: wheat solid;
+  border-right: wheat solid;
+  border-left: wheat solid;
   text-align: center;
   width: 300px;
   margin: 60px auto;
