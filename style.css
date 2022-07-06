@@ -41,11 +41,9 @@ body {
 /* boxes */
 
 .container {
-  padding: 16px;
-  background-color:#2f1608;
-  border-bottom: wheat solid;
-  border-right: wheat solid;
-  border-left: wheat solid;
+  padding: 15px;
+  background-color: #2b0001;
+  border: wheat solid;
   text-align: center;
   width: 300px;
   margin: 60px auto;
