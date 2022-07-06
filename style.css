@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* variaveis */
+ html{
+   --bg-color: #EDF2FF;
+   --text-color: #09082F;
+   --primary-color: #4263EB;
+   --primary-color-dark: #364FC7;
+ }
+ 
+ body.dark-blue{
+   --bg-color: #09082F;
+   --text-color: #FFFFFF;
+   --primary-color: #4263EB;
+   --primary-color-dark: #364FC7;
+ }
+
+ body.dark-red{
+   --bg-color: #2b0000;
+   --text-color: #ffffff;
+   --primary-color: #eb1d1deb;
+   --primary-color-dark: #ff2121fa;
+ }
+
+/* background */
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* boxes */
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+/* Links */
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+/* pseudo-class */
+ul li a:hover {
+    background: var(--primary-color-dark);
+}
+
+/* listS */
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+/* profile picture */
+img.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: var(--primary-color) solid 4px;
+}
+
+/* name */
+h1 {
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.username {
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 400;
+   opacity: 0.8;
+   font-size: 18px;
+}
+
+/* icons */
+
+.icones {
+  border-radius: 50%;
+  width: 45px;
+  height: auto;
+  padding: 3.7px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+
+/* footer */
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  
+  opacity: 0.6;
+}
+footer:hover{
+  opacity: 1;
+}
+
+footer a{
+  color: #ffffff;
+}
